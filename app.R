@@ -5,6 +5,16 @@
 # Find out more about building applications with Shiny here:
 #
 #    http://shiny.rstudio.com/
+
+ # Load required libraries
+library(shiny)
+library(DT)  # For the datatable
+library(ggplot2)  # For the plot
+library(dplyr)  # For data manipulation
+
+
+
+
 #
 haiti_data <- read.csv("haiti_debt_2024.csv") %>% 
 mutate( payment_pct_of_historical_gdp = payments_principal_interest_2024_usd/haiti_historical_gdp*100) %>% 
