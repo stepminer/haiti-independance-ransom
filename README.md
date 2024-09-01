@@ -1,4 +1,4 @@
-Haiti Ransom Analysis Shiny App
+Haiti Ransom Analysis Shiny App by Patrick Prézeau Stephenson (@stepminer2)
 This repository contains a Shiny app that provides an interactive analysis of Haiti's historical debt payments to France, specifically focusing on the "double debt" that Haiti incurred following its independence in 1825. The app updates the New York Times' estimates to 2024 dollars, allowing users to explore the long-term economic impact of these payments in a modern context.
 
 Overview
